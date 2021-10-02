@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^20.2.0",
-    "@mysql/xdevapi": "^8.0.26",
-    "nodemon": "^2.0.13"
+    "@mysql/xdevapi": "^8.0.26"
   }
 }
