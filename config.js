@@ -12,10 +12,10 @@ config.connection = {
   port: 33060,
   user: 'dbusername',
   password:'dbpassword', 
-  schema: 'defaultschemaname'  //default database to connect to
+  schema: 'defaultschema'  //default database
 };
 
-config.connectionUrl = 'mysqlx://dbusername:dbpassword@localhost:33060/defaultschemaname'
+config.connectionUrl = 'mysqlx://dbusername:dbpassword!@localhost:33060/defaultschema'
 
 config.connectionPool = { 
   pooling: { 
